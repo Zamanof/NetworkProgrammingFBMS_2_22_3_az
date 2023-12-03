@@ -29,7 +29,7 @@ while (true)
     Console.WriteLine($"Listening on {listener.LocalEndPoint}");
     client = listener.Accept();
 
-    Task.Run(() =>
+    await Task.Run(() =>
     {
         do
         {
