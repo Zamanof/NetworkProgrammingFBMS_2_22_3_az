@@ -24,3 +24,4 @@ while (true)
     Console.Write(message);
 
 }
+
