@@ -35,13 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP04. TCP_SERVER", "NP04. T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP05. Unicast, Multicast, Broadcast", "NP05. Unicast, Multicast, Broadcast", "{20E5928E-D9CA-46A4-AC76-43438826D434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP05. Broadcast Listener", "NP05. Broadcast Listener\NP05. Broadcast Listener.csproj", "{502C68AD-A618-4E05-9091-A5E5FCFB947E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP05. Broadcast Listener", "NP05. Broadcast Listener\NP05. Broadcast Listener.csproj", "{502C68AD-A618-4E05-9091-A5E5FCFB947E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP05. Broadcast client", "NP05. Broadcast client\NP05. Broadcast client.csproj", "{09742BCE-3ECF-48EA-99B2-95D086B31B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP05. Broadcast client", "NP05. Broadcast client\NP05. Broadcast client.csproj", "{09742BCE-3ECF-48EA-99B2-95D086B31B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP05. Multicast_Group_Listener", "NP05. Multicast_Group_Listener\NP05. Multicast_Group_Listener.csproj", "{2EFC13CB-974B-44FD-BCB0-EC1E5FB62947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP05. Multicast_Group_Listener", "NP05. Multicast_Group_Listener\NP05. Multicast_Group_Listener.csproj", "{2EFC13CB-974B-44FD-BCB0-EC1E5FB62947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP05. Multicats_Group_Client", "NP05. Multicats_Group_Client\NP05. Multicats_Group_Client.csproj", "{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP05. Multicats_Group_Client", "NP05. Multicats_Group_Client\NP05. Multicats_Group_Client.csproj", "{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP06. HTTP", "NP06. HTTP", "{708E55AD-47E6-494E-A535-1E7793904689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP06. Http_Client", "NP06. Http_Client\NP06. Http_Client.csproj", "{88860EA3-1FAF-4E3F-ABFC-010E9D659323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,6 +243,18 @@ Global
 		{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599}.Release|x64.Build.0 = Release|Any CPU
 		{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599}.Release|x86.ActiveCfg = Release|Any CPU
 		{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599}.Release|x86.Build.0 = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|x64.Build.0 = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Debug|x86.Build.0 = Debug|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|x64.ActiveCfg = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|x64.Build.0 = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|x86.ActiveCfg = Release|Any CPU
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +276,7 @@ Global
 		{09742BCE-3ECF-48EA-99B2-95D086B31B9C} = {20E5928E-D9CA-46A4-AC76-43438826D434}
 		{2EFC13CB-974B-44FD-BCB0-EC1E5FB62947} = {20E5928E-D9CA-46A4-AC76-43438826D434}
 		{BBD32B76-9583-4C6D-BDD7-20A6CEA6E599} = {20E5928E-D9CA-46A4-AC76-43438826D434}
+		{88860EA3-1FAF-4E3F-ABFC-010E9D659323} = {708E55AD-47E6-494E-A535-1E7793904689}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4F2E8B9-E507-435D-A083-78FB4976AE6D}
