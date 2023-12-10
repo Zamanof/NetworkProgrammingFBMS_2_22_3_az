@@ -22,5 +22,5 @@ var responce = await client.SendAsync(message);
 //Console.WriteLine(responce.Headers);
 //Console.WriteLine(responce.StatusCode);
 //Console.WriteLine(responce.Content);
-//Console.WriteLine(responce.RequestMessage);
+Console.WriteLine(responce.RequestMessage);
 
