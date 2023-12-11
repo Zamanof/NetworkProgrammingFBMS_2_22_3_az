@@ -49,11 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP06. Http_Client", "NP06. 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP07. Http Client, Http Listener", "NP07. Http Client, Http Listener", "{D722D042-AA55-464C-AA36-7A05D690470A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP07. Http_lient example", "NP07. Http_lient example\NP07. Http_lient example.csproj", "{06DC4216-E58B-4120-9B9D-6D2EE78FFA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP07. Http_lient example", "NP07. Http_lient example\NP07. Http_lient example.csproj", "{06DC4216-E58B-4120-9B9D-6D2EE78FFA16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP07. Http Listener", "NP07. Http Listener\NP07. Http Listener.csproj", "{61E8AF93-B197-429D-89A9-36F827D6E507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP07. Http Listener", "NP07. Http Listener\NP07. Http Listener.csproj", "{61E8AF93-B197-429D-89A9-36F827D6E507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP07. Http Listener with form", "NP07. Http Listener with form\NP07. Http Listener with form.csproj", "{3F24D9B8-7339-44A3-9854-2AF97EBC5265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP07. Http Listener with form", "NP07. Http Listener with form\NP07. Http Listener with form.csproj", "{3F24D9B8-7339-44A3-9854-2AF97EBC5265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP08. FTP, SMTP, IMAP", "NP08. FTP, SMTP, IMAP", "{8AD069EB-64C8-4AA0-BF78-DFB60517CFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP08. Mail protocols", "NP08. Mail protocols\NP08. Mail protocols.csproj", "{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -299,6 +303,18 @@ Global
 		{3F24D9B8-7339-44A3-9854-2AF97EBC5265}.Release|x64.Build.0 = Release|Any CPU
 		{3F24D9B8-7339-44A3-9854-2AF97EBC5265}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F24D9B8-7339-44A3-9854-2AF97EBC5265}.Release|x86.Build.0 = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|x64.Build.0 = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|x64.ActiveCfg = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|x64.Build.0 = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -324,6 +340,7 @@ Global
 		{06DC4216-E58B-4120-9B9D-6D2EE78FFA16} = {D722D042-AA55-464C-AA36-7A05D690470A}
 		{61E8AF93-B197-429D-89A9-36F827D6E507} = {D722D042-AA55-464C-AA36-7A05D690470A}
 		{3F24D9B8-7339-44A3-9854-2AF97EBC5265} = {D722D042-AA55-464C-AA36-7A05D690470A}
+		{C7C2606C-4F07-4EDF-950A-9EAECF188BEF} = {8AD069EB-64C8-4AA0-BF78-DFB60517CFFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4F2E8B9-E507-435D-A083-78FB4976AE6D}
